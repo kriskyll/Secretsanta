@@ -1,0 +1,12 @@
+Hyvä joulun ystävä {},
+
+Olet osallistunut joulun 2022 ylöjärveläiseen Secret Santa -lahjanjakoon.
+Sinun lahjasi saaja on {}. 
+
+Lahjan arvoksi on sovittu {} euroa. Mukavaa joulun odotusta toivottaen,
+
+Secret Santa
+
+
+
+Voit tutustua lähdekoodiin osoitteessa github.com/kriskyll/xxx
