@@ -9,4 +9,4 @@ Secret Santa
 
 
 
-Voit tutustua lähdekoodiin osoitteessa github.com/kriskyll/xxx
+Voit tutustua lähdekoodiin osoitteessa https://github.com/kriskyll/Secretsanta

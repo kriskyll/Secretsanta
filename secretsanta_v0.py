@@ -42,7 +42,7 @@ def main():
             print()
         print("Ilmoitit {} osallistujaa seuraavin yhteystiedoin:".format(len(participants)))
         for participant in participants:
-            print("{0:10s}{1:20s}".format(participant.name, participant.email))
+            print("{0:20s}{1:20s}".format(participant.name, participant.email))
         print()
         ready = input("Onko osallistujien yhteystiedot oikein? [k/e]\n")
         if ready == "k":
@@ -67,7 +67,7 @@ def main():
     for participant in participants:
         print("Lähetetään viestiä {}/{}...".format(count, len(participants)))
         count += 1
-        if sender(participant.target_email, subject, content.format(participant.name, participant.target_name, gift_price)) is not None:
+        if sender(participant.email, subject, content.format(participant.name, participant.target_name, gift_price)) is not None:
             print("Lähetetty")
         else:
             print("Lähetys epäonnistui. :/")
